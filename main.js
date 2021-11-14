@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
   setTimeout(() => {
     h6.classList.add('animate__bounceOutRight')
+    setTimeout(function() {
+      h6.style.display = 'none'
+    }, 1000);
   }, 3000)
   
   setTimeout(() => {
