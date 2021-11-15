@@ -100,3 +100,37 @@ button {
   font-size: 18px;
   color: #fff;
 }
+
+@media(min-width: 900px) {
+
+  .container {
+
+    position: relative;
+
+    display: flex;
+
+    width: 900px;
+
+    margin: auto;
+
+  }
+
+  
+
+  .social {
+
+    position: absolute;
+
+    font-size: 23px;
+
+  }
+
+  
+
+  .jams {
+
+    padding: 0 20px;
+
+  }
+
+}
